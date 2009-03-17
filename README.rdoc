@@ -1,0 +1,7 @@
+= railsbox
+
+Description goes here.
+
+== Copyright
+
+Copyright (c) 2009 Ozéias Sant'ana. See LICENSE for details.
