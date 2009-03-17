@@ -5,11 +5,11 @@ begin
   require 'jeweler'
   Jeweler::Tasks.new do |gem|
     gem.name = "railsbox"
-    gem.summary = %Q{TODO}
+    gem.summary = "Simple and opinionated helpers for ruby / rails developer"
     gem.email = "oz.santana@gmail.com"
     gem.homepage = "http://github.com/ozeias/railsbox"
+    gem.description = "Simple and opinionated helpers for ruby / rails developer"
     gem.authors = ["Ozéias Sant'ana"]
-    # gem is a Gem::Specification... see http://www.rubygems.org/read/chapter/20 for additional settings
   end
 rescue LoadError
   puts "Jeweler not available. Install it with: sudo gem install technicalpickles-jeweler -s http://gems.github.com"
@@ -35,6 +35,5 @@ Spec::Rake::SpecTask.new(:rcov) do |spec|
   spec.pattern = 'spec/**/*_spec.rb'
   spec.rcov = true
 end
-
 
 task :default => :spec
